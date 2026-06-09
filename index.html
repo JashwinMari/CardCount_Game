@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WarGame</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="header-section">
+        <img src="./images/shuffleIcon.svg" alt="shuffle icon" id="new-deck-btn">
+        <p>Remaining Cards: <span id="remaining-cards">52</span></p>
+    </section>
+
+    <section>
+        <div id="main-section">
+            <p class="score-text">Computer: <span id="computer-score">0</span></p>
+            <div id="cards-container">
+                <div class="card-slot"></div>
+                <div class="card-slot"></div>
+            </div>
+            <p class="score-text">Player: <span id="player-score">0</span></p>
+        </div>
+    </section>
+
+    <section>
+        <button id="draw-card-btn">
+            Draw Cards
+        </button>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
+
